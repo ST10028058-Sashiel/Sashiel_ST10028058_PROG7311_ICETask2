@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<div class="container mt-5 text-center">
+    <h2 class="text-success fw-bold display-5">🎉 Order Placed</h2>
+
+    <p class="lead text-secondary">@ViewBag.Message</p>
+
+    <a class="btn btn-primary mt-3 px-4 py-2" asp-action="Create">🛍️ Place Another Order</a>
+</div>
